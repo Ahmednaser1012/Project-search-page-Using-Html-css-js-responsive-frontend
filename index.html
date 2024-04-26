@@ -1,0 +1,474 @@
+<html>
+    <head>
+        <meta name="viewport" content="">
+        <link rel="stylesheet"  href="css/normalize.css">
+        <link rel="stylesheet"  href="css/fontawesome-free-6.1.2-web/css/all.min.css">
+        <link rel="stylesheet"  href="./bootstrap-5.2.2-dist/css/bootstrap.min.css">
+        
+        <link rel="stylesheet"  href="css/main.css">
+        <title>search </title>
+          
+    </head>
+
+    <body>
+      
+      
+    <div class="container">
+      <div class="row">
+        <!-- BEGIN SEARCH RESULT -->
+        <div class="col-md-12  ">
+          <div class="grid search">
+            <div class="grid-body">
+              <div class="row">
+                    <!-- BEGIN FILTERS -->
+                    
+                    <div class="col-md-3  labell">
+                      <h2 class="grid-title"><i class="fa fa-filter icon"></i> Filters</h2>
+                      <hr>
+                      <!-- BEGIN FILTER BY CATEGORY -->
+                      <h4>Filter by:</h4>
+                      <div class="checkbox"> 
+                          <div class="dropdown ">
+                            <input  type="text" class="btn btn-light dropdown-toggle location-city " data-bs-auto-close="outside" data-bs-toggle="dropdown" aria-expanded="false" id="myin" onkeyup="search()"  placeholder=" Location" >
+                             <ul class="dropdown-menu  scrollable-menu" >
+                                <li class="">
+                                  <a  class="dropdown-item  dropdown-toggle lig  dropdown-menu-end"  data-bs-toggle="dropdown" href="#">cairo</a>
+                                  <ul class=" dropdown-menu scrollable-menu  ">
+                                   <li>
+                                    <input type="search" class="search-city searchable "  placeholder="City" id="" >
+                                   </li> 
+                                   
+                                      <li ><a class="dropdown-item " href="#">el mokattam</a></li>
+                                      <li ><a class="dropdown-item " href="#">nasr city</a></li>
+                                      <li ><a class="dropdown-item " href="#">madiy</a></li>
+                                    
+                                  </ul>
+                                
+                                </li>
+                                <li class=" ">
+                                  <a  class="dropdown-item  dropdown-toggle lig dropdown-menu-end "  data-bs-toggle="dropdown" href="#">cairo</a>
+                                  <ul class=" dropdown-menu scrollable-menu  ">
+                                   <li>
+                                    <input type="search" class="search-city searchable "  placeholder="City" id="" >
+                                   </li> 
+                                   
+                                      <li ><a class="dropdown-item " href="#">el mokattam</a></li>
+                                      <li ><a class="dropdown-item " href="#">nasr city</a></li>
+                                      <li ><a class="dropdown-item " href="#">madiy</a></li>
+                                    
+                                  </ul>
+                                
+                                </li>
+                                <li class="">
+                                  <a  class="dropdown-item  dropdown-toggle lig dropdown-menu-end  "  data-bs-toggle="dropdown" href="#">cairo</a>
+                                  <ul class=" dropdown-menu scrollable-menu  ">
+                                   <li>
+                                    <input type="search" class="search-city searchable "  placeholder="City" id="" >
+                                   </li> 
+                                   
+                                      <li ><a class="dropdown-item " href="#">el mokattam</a></li>
+                                      <li ><a class="dropdown-item " href="#">nasr city</a></li>
+                                      <li ><a class="dropdown-item " href="#">madiy</a></li>
+                                    
+                                  </ul>
+                                
+                                </li>
+
+
+                                <li class="dropend  ">
+                                  <a  class="dropdown-item  dropdown-toggle lig" data-bs-toggle="dropdown" href="#">Alexandria</a>
+                                  <ul class="dropdown-menu  scrollable-menu  ">
+                                   <li>
+                                    <input type="search" class="search-city searchable "  placeholder="City" id="" >
+                                   </li> 
+                                    <div class="">
+                                      <li ><a class="dropdown-item " href="#">el mokattam</a></li>
+                                      <li ><a class="dropdown-item " href="#">nasr city</a></li>
+                                      <li ><a class="dropdown-item " href="#">madiy</a></li>
+                                    </div>
+                                  </ul>
+                                
+                                </li>
+                                <li class="dropend  ">
+                                  <a  class="dropdown-item  dropdown-toggle lig" data-bs-toggle="dropdown" href="#">South sinai</a>
+                                  <ul class="dropdown-menu  scrollable-menu  ">
+                                   <li>
+                                    <input type="search" class="search-city searchable "  placeholder="City" id="" >
+                                   </li> 
+                                    <div class="">
+                                      <li ><a class="dropdown-item " href="#">el mokattam</a></li>
+                                      <li ><a class="dropdown-item " href="#">nasr city</a></li>
+                                      <li ><a class="dropdown-item " href="#">madiy</a></li>
+                                    </div>
+                                  </ul>
+                                
+                                </li>
+                                <li class="dropend  ">
+                                  <a  class="dropdown-item  dropdown-toggle lig" data-bs-toggle="dropdown" href="#">Aswan</a>
+                                  <ul class=" dropdown-menu scrollable-menu  ">
+                                   <li>
+                                    <input type="search" class="search-city searchable "  placeholder="City" id="" >
+                                   </li> 
+                                    <div class="">
+                                      <li ><a class="dropdown-item " href="#">el mokattam</a></li>
+                                      <li ><a class="dropdown-item " href="#">nasr city</a></li>
+                                      <li ><a class="dropdown-item " href="#">madiy</a></li>
+                                    </div>
+                                  </ul>
+                                
+                                </li>
+                                <li class="dropend  ">
+                                  <a  class="dropdown-item  dropdown-toggle lig" data-bs-toggle="dropdown" href="#">qana</a>
+                                  <ul class=" dropdown-menu scrollable-menu  ">
+                                   <li>
+                                    <input type="search" class="search-city searchable "  placeholder="City" id="" >
+                                   </li> 
+                                    <div class="">
+                                      <li ><a class="dropdown-item " href="#">el mokattam</a></li>
+                                      <li ><a class="dropdown-item " href="#">nasr city</a></li>
+                                      <li ><a class="dropdown-item " href="#">madiy</a></li>
+                                    </div>
+                                  </ul>
+                                
+                                </li>
+                                <li class="dropend  ">
+                                  <a  class="dropdown-item  dropdown-toggle lig" data-bs-toggle="dropdown" href="#">minai</a>
+                                  <ul class=" dropdown-menu scrollable-menu  ">
+                                   <li>
+                                    <input type="search" class="search-city searchable "  placeholder="City" id="" >
+                                   </li> 
+                                    <div class="">
+                                      <li ><a class="dropdown-item " href="#">el mokattam</a></li>
+                                      <li ><a class="dropdown-item " href="#">nasr city</a></li>
+                                      <li ><a class="dropdown-item " href="#">madiy</a></li>
+                                    </div>
+                                  </ul>
+                                
+                                </li>
+                                
+                            </ul>
+                          </div> 
+
+                    
+                        
+                      </div>
+
+                      
+                      <div class="checkbox">
+                        <label><input type="checkbox" class="icheck"> Rating</label>
+                      </div>
+                      <div class="checkbox">
+                        <label><input type="checkbox" class="icheck"> Consultant</label>
+                      </div>
+                      <div class="checkbox">
+                        <label><input type="checkbox" class="icheck"> Specialist</label>
+                      </div>
+                      <!-- END FILTER BY CATEGORY --> 
+                    </div>
+                    <!-- END FILTERS -->
+
+                    <!-- BEGIN RESULT -->
+
+                    <div class="col-md-9">
+                      <h2><i class="fa-regular fa-file icon"></i> Result</h2>
+                      <hr>
+
+                    <!-- BEGIN SEARCH INPUT -->
+                    <form action="#">
+                      <div class="input-group">
+                        <input type="text" class="form-control " value="" placeholder="Search">
+                        <span class="input-group-btn">
+                          <button class="btn btn-primary " type="button"><i class="fa fa-search icons"></i></button>
+                        </span>
+                      </div>
+                    </form>
+                  
+                    <!-- END SEARCH INPUT -->
+                      <p>Showing all results matching </p>
+                  
+             
+                  
+                  <div class="row">
+                      <!-- BEGIN ORDER RESULT -->
+                         <div class="dropdown">
+                            <button class="btn btn-light dropdown-toggle" data-bs-auto-close="outside" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                              Search by
+                            </button>
+                            <ul class="dropdown-menu">
+                            
+                              <li><a class="dropdown-item" href="#">Rating</a></li>
+                              <li><a class="dropdown-item" href="#">Consultant</a></li>
+                              <li><a class="dropdown-item" href="#">Specialist</a></li>
+                              
+                            </ul>
+                         </div> 
+                         
+                          <!-- END ORDER RESULT -->
+                     
+                    
+                         <!-- BEGIN TABLE RESULT -->
+                          <div class="table-responsive  ">
+                            <table class="table table-hover  ">
+                              <tbody>
+                                  <tr>
+                                    <td class="number text-center">1</td>
+                                    <td class="image"><img src="https://via.placeholder.com/400x300/FF8C00" alt=""></td>
+                                    <td class="name"><strong> Name 1</strong><br> Specialization</td>
+                                    <td class="rate text-right"><span><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa-regular fa-star"></i></span></td>
+                                    <td class="Location text-right">$Location </td>
+                                  </tr>
+                                  <tr>
+                                    <td class="number text-center">2</td>
+                                    <td class="image"><img src="https://via.placeholder.com/400x300/5F9EA0" alt=""></td>
+                                    <td class="name"><strong>Name 2</strong><br> Specialization</td>
+                                    <td class="rate text-right "><span><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i></span></td>
+                                    <td class="Location text-right ">$Location</td>
+                                  </tr>
+                                  <tr>
+                                    <td class="number text-center">3</td>
+                                    <td class="image"><img src="https://via.placeholder.com/400x300" alt=""></td>
+                                    <td class="name"><strong>Name 3</strong><br>Specialization</td>
+                                    <td class="rate text-right"><span><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i></span></td>
+                                    <td class="Location text-right">$Location</td>
+                                  </tr>
+                                  <tr>
+                                    <td class="number text-center">4</td>
+                                    <td class="image"><img src="https://via.placeholder.com/400x300/8A2BE2" alt=""></td>
+                                    <td class="name"><strong>Name 4</strong><br>Specialization </td>
+                                    <td class="rate text-right"><span><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa-regular fa-star"></i></span></td>
+                                    <td class="Location text-right  ">$Location</td>
+                                  </tr>
+                                  <tr>
+                                    <td class="number text-center">5</td>
+                                    <td class="image"><img src="https://via.placeholder.com/400x300" alt=""></td>
+                                    <td class="name"><strong>Name 5</strong><br>Specialization</td>
+                                    <td class="rate text-right"><span><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></span></td>
+                                    <td class="Location text-right">$Location</td>
+                                  </tr>
+                                  
+                              </tbody>
+                            </table>
+                          </div>
+                         <!-- END TABLE RESULT -->
+                  
+                </div>
+                  <!-- END RESULT -->
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- END SEARCH RESULT -->
+      </div>
+    </div>
+
+     
+       
+      
+        <!-------------------java script------------------->
+       
+        
+        <!--1- fontawesome -->
+        <script src="css/fontawesome-free-6.1.2-web/js/all.min.js"></script>
+  
+        <!--2- js ---->
+        <script src="js/popper.min.js"></script>
+        <script src="./bootstrap-5.2.2-dist/js/bootstrap.min.js"></script>
+        
+        <!-- <script>
+            var x=document.getElementsByClassName("scrollable");
+              x[0].addEventListener("onclick", function () {
+              x[0].style.maxHeight = "15px";
+              x[0].style.backgroundColor="yellow";
+            });
+        </script> -->
+
+        <script>
+          
+          var searchCityElements=document.getElementsByClassName("search-city"); 
+          var locationCityElements=document.getElementsByClassName("location-city"); 
+          
+          for (var i = 0; i < searchCityElements.length; i++) {
+            searchCityElements[i].addEventListener("focus", function() {
+              this.style.border = "none";
+              this.style.padding = "4px";
+            });
+          }
+
+          for (var j = 0; j < locationCityElements.length; j++) {
+              locationCityElements[j].addEventListener("focus", function() {
+                this.style.border = "none";
+                this.style.padding = "4px";
+              });
+            }
+
+         
+        </script>
+        
+        <script>
+
+        function search() {
+
+            var filter = document.getElementById("myin").value.toUpperCase();
+            var x = document.getElementsByClassName("lig");
+          
+            for (let i = 0; i < x.length; i++) {
+              if (x[i].innerHTML.toUpperCase().indexOf(filter) > -1) {
+                x[i].style.display = "block";
+                
+              }
+              else {
+                x[i].style.display = "none";
+              }
+            }
+          }
+
+
+ 
+        // filter.addEventListener('keyup', (e) =>{
+        //   console.log(e.target.value);
+        // });
+        
+
+        // var filter = document.getElementById("myin");
+        // var x = document.querySelector("lig");
+        // let searchable = [
+        //     'Elastic',
+        //     'PHP',
+        //     'Something about CSS',
+        //     'How to code',
+        //     'JavaScript',
+        //     'Coding',
+        //     'Some other item',
+        //   ];
+
+        // function search() {
+        //   let results =[];
+        //   var filterr = document.getElementById("myin");
+        //   // var x= document.querySelector("lig");
+
+        //   let inp = filterr.value;
+
+        //   if (inp.length) {
+        //       results = searchable.filter((item) => {
+        //         return item.toLowerCase().includes(input.toLowerCase());
+        //       });
+        //   }
+        //   renderResults(results);
+        //   }
+
+        //   function renderResults(results) {
+           
+
+        // const content = results
+        //   .map((item) => {
+        //     return `<li>${item}</li>`;
+        //   })
+        //   .join('');
+        //   console.log(content);
+
+        // }
+
+
+
+      //   filter.addEventListener('keyup', () => {
+      //   let results = [];
+      //   let input = searchInput.value;
+      //   if (input.length) {
+      //     results = x.filter((item) => {
+      //       return item.toLowerCase().includes(input.toLowerCase());
+      //     });
+      //   }
+      //   renderResults(results);
+      // });
+
+      // function renderResults(results) {
+      //   if (!results.length) {
+      //     return searchWrapper.classList.remove('show');
+      //   }
+
+      //   const content = results
+      //     .map((item) => {
+      //       return `<li>${item}</li>`;
+      //     })
+      //     .join('');
+
+      //   searchWrapper.classList.add('show');
+      //   resultsWrapper.innerHTML = `<ul>${content}</ul>`;
+      // }
+
+
+
+          // ////////////////////////////////////////////////////////////////////////////////////////
+          // var g=document.getElementsByClassName("lig");
+
+          //   for (var i = 0; i < g.length; i++) {
+          //       g[i].addEventListener ("",function(){
+          //       this.style.maxHeight = "15px";
+          //   });
+          // }
+
+
+        
+        // function searchh() {
+
+        // var filter = document.getElementById("main").value.toUpperCase();
+        // var x = document.getElementsByClassName("lic");
+
+        // for (let i = 0; i < x.length; i++) {
+        //   if (x[i].innerHTML.toUpperCase().indexOf(filter) > -1) {
+        //     x[i].style.display = "block";
+        //   }
+        //   else {
+        //     x[i].style.display = "none";
+        //   }
+        // }
+        // }
+
+        </script>
+
+        <script>
+          
+          // function searchh() {
+          //     var input = document.getElementById("main");
+          //     var filter = input.value.toUpperCase();
+          //     var items = document.getElementsByClassName("lic");
+            
+             
+          //        for (var i = 0; i < items.length; i++) {
+          //        if (items[i].innerHTML.toUpperCase().indexOf(filter) > -1) {
+          //          items[i].style.display = "block";
+          //        } else {
+          //          items[i].style.display = "none";
+          //        }
+                
+          //      }
+          //   }
+         
+
+            // Get all elements with class name "searchable" and add event listeners to them
+            // var searchableElements = document.getElementsByClassName("searchable");
+            // for (var i = 0; i < searchableElements.length; i++) {
+            //   searchableElements[i].addEventListener("input", search);
+            //   searchableElements[i].addEventListener("propertychange", search);
+            //   searchableElements[i].addEventListener("keyup", search);
+            // }
+          
+
+            // function searchh() {
+            //   var filter = document.getElementById("main").value.toUpperCase();
+            //   var items = document.getElementsByClassName("lic");
+            //   for (var i = 0; i < items.length; i++) {
+            //     items[i].addEventListener("click", function() {
+            //       if (this.innerHTML.toUpperCase().indexOf(filter) > -1) {
+            //         this.style.display = "";
+            //       } else {
+            //         this.style.display = "none";
+            //       }
+            //     });
+            //   }
+            // }
+        </script>
+      
+    </body>
+</html>
+
